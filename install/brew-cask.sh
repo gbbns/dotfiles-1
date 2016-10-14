@@ -7,13 +7,10 @@ brew tap caskroom/versions
 
 # Install packages
 apps=(
-    1password
-    gyazo
     dropbox
     google-drive
     spectacle
     flux
-    dash
     imagealpha
     imageoptim
     evernote
@@ -27,17 +24,11 @@ apps=(
     malwarebytes-anti-malware
     glimmerblocker
     hammerspoon
-    kaleidoscope
     macdown
     opera
-    screenflow
     spotify
     skype
     slack
-    tower
-    transmit
-    elmedia-player
-    utorrent
 )
 
 brew cask install "${apps[@]}"
